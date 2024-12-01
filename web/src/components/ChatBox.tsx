@@ -40,6 +40,7 @@ const ChatBox = ({ ws, chattingWith }: ChatBoxProps) => {
     // Simulate fetching chat history from an API
     const fetchMessagesForUser = async (user: string) => {
         try {
+            console.log(user);
             // Example API request to fetch messages for the current conversation
             // Replace with your actual API request
             // const response = await fetch(

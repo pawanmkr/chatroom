@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import ChatComponent from '../components/ChatComponent';
+import ChatComponent from '../components/ChatBox';
 import UserList from '../components/UserList';
 import axios from 'axios';
 
